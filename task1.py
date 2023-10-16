@@ -23,5 +23,9 @@ The animal at that index is Dog
 """
 
 
-
-animals =
+print('Today we will find what type of animal you are!\n\n')
+animals = ['Cat','Fish','Dog','Bear','Turtle']
+animals.sort()
+x=int(input('Enter your favourite number to determine what animal you are.==>'))
+x=x%5
+print(animals[x])
