@@ -28,7 +28,6 @@ fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry
 print(fruit)
 word = input('Enter a word:')
 if word in fruit:
-    print(fruit)
     x = fruit.count(word)
     for i in range(x):
         fruit.remove(word)
